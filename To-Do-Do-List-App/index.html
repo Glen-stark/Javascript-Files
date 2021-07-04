@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="prompt">
+    <p>Click the button to see instructions on how to use.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+</div>
+    
+
+  <div id="myDiv" class="header">
+    <h2>My To Do List</h2>
+    <form id ="todoform">
+        <input type="text" id="todoInput">
+        <button id="todoBtn" type="button" onclick="todoList()"><span>Add</span></button>
+    </form>
+    <ol id="todoList">
+
+    </ol>
+  </div>       
+    <script src="index.js"></script>
+</body>
+</html>
