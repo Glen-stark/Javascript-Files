@@ -1,0 +1,71 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(16, 15, 15);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .closex {
+    color: white;
+    text-align: right;
+    padding-right: 23px;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  .closex p:hover {
+    color: rgba(46, 77, 179, 0.838);
+    transition: 1.2s;
+    text-shadow: 2px 3px 12px rgba(52, 54, 139, 0.838);;
+  }
+  .sidebar a {
+    padding: 13px;
+   
+    margin-bottom: 24px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    padding: 13px;
+    background-color: rgba(49, 51, 145, 0.838);
+    margin-bottom: 24px;
+    color: #f1f1f1;
+  }
+  
+  
+  .openbtn {
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(46, 115, 179, 0.838);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
