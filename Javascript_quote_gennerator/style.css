@@ -1,0 +1,39 @@
+.main {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 90px;
+    left: 350px;
+    /* background-color: beige; */
+    /* border-radius: 10%; */
+    width: 50%;
+}
+body {
+    background-size: cover;
+    background-image: url(/Javascript_quote_gennerator/ins_160721892_241182197693857_1627983861984804221_n.jpg);
+}
+button {
+    font-size: 30px;
+    border: none;
+    background-color: wheat;
+    padding: 12px;
+    border-radius: 12px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    /* color: aquamarine; */
+    transition: 4s;
+}
+.main:hover {
+    /* background-color: beige; */
+   
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    color:aqua;
+    font-size: 50px;
+   
+}
